@@ -47,7 +47,7 @@ public class Main {
 
     public static void main(String[] args) {
         Tarefa tarefa1 = new Tarefa("Estudar POO", "Revisar Classes", "Amanhã", 2); //usando o construtor
-        Tarefa tarefa2 = new Tarefa("Estudar Concstrutores", "Revisar metodos", "Hoje",1);
+        Tarefa tarefa2 = new Tarefa("Estudar Concstrutores", "Revisar metodos", "Hoje",0);
         tarefa1.exibirDetalhes();
         tarefa2.exibirDetalhes();
     }
