@@ -4,7 +4,7 @@ class Tarefa {
     private String prazo;
     private int prioridade; 
 
-    //construtor (metodo) - cria o objeto, tem o mesmo nome da classe (JAVA)
+                                            //construtor (metodo) - cria o objeto, tem o mesmo nome da classe (JAVA)
     public Tarefa(String titulo, String descricao, String prazo, int prioridade) { //o metodo possui os atributos da classe
         this.titulo = titulo;
         this.descricao = descricao;
@@ -15,11 +15,11 @@ class Tarefa {
 
     //metodos Get e Set 
     public String getTitulo() {
-        return this.titulo; //"this" busca a variavel dentro do objeto
+        return this.titulo;                 //"this" busca a variavel dentro do objeto
     }
 
-    public void setTitulo(String titulo) { //altera um valor ("seta")
-    this.titulo = titulo; //Set nao retorna nada ~ void
+    public void setTitulo(String titulo) {  //altera um valor ("seta")
+    this.titulo = titulo;                   //Set nao retorna nada ~ void
 
     }
 
