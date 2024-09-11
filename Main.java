@@ -6,16 +6,16 @@ class Tarefa {
 
                                             //construtor (metodo) - cria o objeto, tem o mesmo nome da classe (JAVA)
     public Tarefa(String titulo, String descricao, String prazo, int prioridade) { //o metodo possui os atributos da classe
-        this.titulo = titulo;
-        this.descricao = descricao;
-        this.prazo = prazo;
-        this.prioridade = prioridade;
+        this.titulo = titulo; // String
+        this.descricao = descricao; //String
+        this.prazo = prazo; // String
+        this.prioridade = prioridade; // Integer
 
     }
 
     //metodos Get e Set 
     public String getTitulo() {
-        return this.titulo;                 //"this" busca a variavel dentro do objeto
+        return this.titulo;                 //"this" busca a variavel dentro do objeto ("self" do python)
     }
 
     public void setTitulo(String titulo) {  //altera um valor ("seta")
@@ -23,7 +23,7 @@ class Tarefa {
 
     }
 
-    public String getDescricao() {
+    public String getDescricao() { // busca um valor
         return this.descricao;
     }
 
